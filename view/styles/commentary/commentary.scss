@@ -1,0 +1,13 @@
+.commentary {
+    margin: 30px;
+    color: #2e2e2e;
+    &__author {
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    &__content {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
