@@ -1,0 +1,11 @@
+{
+    "env": {
+        "CONNECTION_STRING": "mongodb+srv://webmaster:1234regd@cluster0.axaqlfn.mongodb.net/?retryWrites=true&w=majority",
+        "PORT": 5000,
+        "NODE_ENV": "development"
+    
+    },
+    "watch": ["src"],
+    "ext": "ts,json",
+    "exec": "ts-node ./src/index.ts"
+}
